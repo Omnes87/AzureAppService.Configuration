@@ -1,6 +1,6 @@
 {
   "title": "AzureAppService.Configuration",
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "description": "ASP.Net 5 Configuration helper for getting settings from an Azure App Service into the ConfigurationBuilder",
   "authors": [ "David Federman" ],
   "tags": [ "aspnet", "configuration", "azure" ],
@@ -8,6 +8,11 @@
   "licenseUrl": "https://github.com/dfederm/AzureAppService.Configuration/blob/master/LICENSE",
   "frameworks": {
     "net451": {
+      "frameworkAssemblies": {
+        "System.Configuration": "4.0.0.0"
+      }
+    },
+    "dnx451": {
       "frameworkAssemblies": {
         "System.Configuration": "4.0.0.0"
       }
